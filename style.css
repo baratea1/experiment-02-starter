@@ -64,3 +64,33 @@ img {
     background-color: blue;
     color: whitesmoke;
 }
+
+@keyframes textChange{
+    0%{
+        color: black;
+    }
+
+    50%{
+        color: green;
+    }
+
+    100%{
+        color:black;
+    }
+}
+
+.textCycle{
+    animation: textChange 2s infinite;
+}
+
+.tile1{
+    background-color: yellow;
+}
+
+.tile2{
+    background-color: orangered;
+}
+
+.tile3{
+    background-color: orange;
+}
